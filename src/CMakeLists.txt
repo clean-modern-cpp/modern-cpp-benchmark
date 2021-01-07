@@ -1,0 +1,2 @@
+add_executable(static_variable_benchmark static_variable_benchmark.cpp)
+target_link_libraries(static_variable_benchmark PRIVATE benchmark)
